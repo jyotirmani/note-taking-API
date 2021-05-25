@@ -36,6 +36,7 @@ create database notes_app
 ```
 
 **2.b Using a Mysql database
+```bash
 1. Create Mysql database
 
 create database notes_app
@@ -46,7 +47,7 @@ open src/main/resources/application.properties
 uncomment Mysql properties and comment h2 properties
 
 change spring.datasource.username and spring.datasource.password as per your mysql installation
-
+```
 
 **3. Change mssql username and password as per your installation**
 
