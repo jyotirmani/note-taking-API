@@ -30,10 +30,23 @@ Each note should keep the following information:
 git clone https://github.com/jyotirmani/note-taking-API.git
 ```
 
-**2. Create MS sql database**
+**2.a Create MS sql database**
 ```bash
 create database notes_app
 ```
+
+**2.b Using a Mysql database
+1. Create Mysql database
+
+create database notes_app
+2. Change mysql username and password as per your installation
+
+open src/main/resources/application.properties
+
+uncomment Mysql properties and comment h2 properties
+
+change spring.datasource.username and spring.datasource.password as per your mysql installation
+
 
 **3. Change mssql username and password as per your installation**
 
@@ -72,4 +85,8 @@ The app defines following CRUD APIs.
 
 You can test them using postman or any other rest client.
 
+
+The app will start running at http://localhost:8080
+
+You can test them using the embedded Swagger UI.
 
