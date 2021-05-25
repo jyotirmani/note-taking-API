@@ -1,14 +1,26 @@
-# Spring Boot, MSSQL, JPA, Hibernate Rest API Tutorial
+# Spring Boot, MSSQL, JPA, Hibernate Rest API
 
 Build Restful CRUD API for a simple Note-Taking application using Spring Boot, MSsql, JPA and Hibernate.
+* Recommended software architecture: Representational state transfer (REST)
+
+## The Problem
+Develop a note-taking API for creating, reading, editing and deleting notes.
+Each note should keep the following information:
+* Title
+* Description
+* Creation Date
+* Modification Date
+* Expiration Date 
+* Owner
+
 
 ## Requirements
 
 1. Java - 1.8.x
-
 2. Maven - 3.x.x
-
 3. MS sql - 5.x.x
+
+
 
 ## Steps to Setup
 
